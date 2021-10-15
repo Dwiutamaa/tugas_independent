@@ -1,0 +1,117 @@
+/* Mulai code Anda dari baris terakhir */
+
+* {
+    box-sizing: border-box;
+  }
+  
+  html, body,
+  ul, ol, li,
+  h1, h2, h3, h4, h5, h6, p, div {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: "Lucida Grande";
+    height: 100px;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  .clear {
+    clear: left;
+  }
+  
+  .container {
+    max-width: 1170px;
+    padding: 0 15px;
+    margin: 0 auto;
+  }
+
+  .top-wrapper {
+    padding: 180px 0 150px 0;
+    background: linear-gradient(rgba(0, 0, 0, 0.726),rgba(0, 0, 0, 0.726)),url("image/mask.jpg");
+    background-size: cover;
+    color: white;
+    text-align: center;
+  }
+  
+  .top-wrapper h1 {
+    opacity: 0.7;
+    font-size: 45px;
+    letter-spacing: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .top-wrapper p {
+    opacity: 0.7;
+    margin-bottom: 3px;
+  }
+  
+  header {
+    height: 90px;
+    width: 100%;
+    background-color: rgba(12, 12, 12, 0.438);
+    position :fixed;
+    top: 0;
+    z-index: 10;
+    }
+  
+  
+  .logo {
+    width: 124px;
+    margin-top:0px;
+  }
+  
+  .header-left {
+    float: left;
+    line-height: 65px;
+    padding: 0 25px;
+    color: white;
+    display: block;
+    float: left;
+    transition: all 0.5s;
+  }
+  .header-left p {
+    line-height: 65px;
+    padding: 15px 2px;
+    color: white;
+    display: block;
+    float: right;
+    animation-name: example;
+    animation-duration: 14s;
+  }
+  @keyframes example {
+    0%   {color: red;}
+    25%  {color: white;}
+    50%  {color: red;}
+    100% {color: white;}
+  }
+  .header-right {
+    float: right;
+    margin-right: -25px;
+  }
+  
+  .header-right a {
+    line-height: 65px;
+    padding: 15px 25px;
+    color: white;
+    display: block;
+    float: left;
+    transition: all 0.5s;
+  }
+  .header-right a:hover {
+    background-color: rgba(255, 255, 255, 0.062);
+  }
+  span.menu-icon {
+    color: white;
+    float: right;
+    font-size: 25px;
+    padding: 21px 0;
+    display: none;
+  }
+  
+  
+ 
